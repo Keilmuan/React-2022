@@ -24,7 +24,7 @@ function App() {
       <Navbar isShow={false}></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome to React Anjayy</h1>
+        <h1>Welcome to React Anjayyyyyyyy</h1>
         <p>Hello World</p>
         <div>
           <Button color="#7735C3" active={false}>
