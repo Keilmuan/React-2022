@@ -16,7 +16,7 @@ export default function Footer({ backgroundColor = '#fff' }) {
                 <h4 style={{
                     color: '#5D5D5D'
                 }}>&copy; 2021 All Right Reserved -&nbsp;</h4>
-                <h4>Designed By USKW</h4>
+                <h4>Designed By ITCLUB_Frontend</h4>
             </div>
         </div>
     )
