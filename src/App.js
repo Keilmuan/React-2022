@@ -21,22 +21,22 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar isShow={false}></Navbar>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome to React Anjayyyyyyyy</h1>
-        <p>Hello World</p>
-        <div>
-          <Button color="#7735C3" active={false}>
-            asd
-          </Button>
-          <ButtonDown />
-          <List>
-            asdasdas
-            <br /> asdasdjasd
-          </List>
-        </div>
-      </header>
+
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "1rem",
+          padding: "50px 0px 50px 10px",
+        }}
+      >
+        <Card image={resiskom} text="Info Resiskom" />
+        <Card image={himpunan} text="Info Himpunan" />
+        <Card image={kepanitian} text="Info Kepanitian" />
+        <Card image={akademik} text="Info Akademik" />
+      </div>
+
 
       <div style={{ padding: "20px 100px" }}>
         <Hero
@@ -47,21 +47,7 @@ function App() {
         />
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "1rem",
-          padding: "0 4rem",
-        }}
-      >
-        <Card image={resiskom} text="Info Resiskom" />
-        <Card image={himpunan} text="Info Himpunan" />
-        <Card image={kepanitian} text="Info Kepanitian" />
-        <Card image={akademik} text="Info Akademik" />
-      </div>
-
+      
       <div style={{ padding: "20px 100px" }}>
         <Carousel />
       </div>

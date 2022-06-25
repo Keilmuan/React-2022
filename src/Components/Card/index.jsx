@@ -6,13 +6,16 @@ export function Card({ image = "", text = "Info Resiskom" }) {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        width: "fit-content",
-        borderRadius: "1rem",
+        width: "280px",
+        height:'330px',
+        borderRadius: "2rem",
         border: "10px solid white",
         textAlign: "center",
         backgroundColor: "#DCDCDC",
         overflow: "hidden",
+        boxShadow:'1px 2px 9px black',
       }}
+
     >
       <div
         style={{
@@ -27,7 +30,10 @@ export function Card({ image = "", text = "Info Resiskom" }) {
           />
         )}
       </div>
-      <h3 style={{ padding: "1rem 0" }}>{text && text}</h3>
+      <h3 style={{ 
+        padding: "10px 1px 10px 10px",
+        fontSize:'35px'
+    }}>{text && text}</h3>
     </div>
   );
 }

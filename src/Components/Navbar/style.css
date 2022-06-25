@@ -60,7 +60,7 @@ nav ul li a:hover {
     display: block;
     width: 28px;
     height: 3px;
-    background-color:  rgb(24, 21, 27));
+    background-color:  rgb(24, 21, 27);
     border-radius: 3px;
     transition: all 1s;
 }

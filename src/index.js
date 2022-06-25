@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Components/home';
+import Nav from './Components/Navbar'
+import App from './App'
+import Resiskom from './Components/resiskom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home/>
+    <Resiskom/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
